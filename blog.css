@@ -1,0 +1,167 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(224, 205, 205);
+}
+
+a{
+  text-decoration: none;
+  color: white;  
+}
+nav a:hover{
+    color: yellow;
+    text-shadow: -8px 8px 14px rgb(187, 187, 167);
+}
+
+li{
+    list-style: none;
+}
+
+.bgimg{
+    background-image: url(https://www.jotform.com/blog/wp-content/uploads/2020/08/collaboration-activities.jpg);
+    width: 1095px;
+    height: 500px;
+    background-position: 10%;
+}
+.sticky{
+    position: sticky;
+    top: 0%;
+    padding: 10px;
+    background-color: rgba(15, 10, 10, 0.349);
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+    gap: 60px;
+}
+.content{
+    text-align: center;
+    color: white;
+    padding-top: 10%;
+}
+.more{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:800;
+    color: white;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    background-color: yellow;
+    opacity: 89%;
+}
+.more:hover{
+    box-shadow: inset 5px 5px 18px black;
+}
+
+
+
+
+#banner{
+    background-color: rgb(36, 36, 124);
+    padding-bottom: 5%;
+}
+.card ul{
+    display: flex;
+    gap: 10px;
+    padding-right: 5%;
+    padding-top: 5%;
+    text-align: center;
+    height: 250px;
+    }
+
+.card1, .card2, .card3, .card4{ 
+    background-color: rgba(17, 19, 16, 0.719);
+    border-radius: 10px;
+    
+}
+
+.card1:hover{
+    box-shadow: 0 0 10px gold;
+} 
+.card2:hover{
+    box-shadow: 0 0 10px gold;
+} 
+.card3:hover{
+    box-shadow: 0 0 10px gold;
+} 
+.card4:hover{
+    box-shadow: 0 0 10px gold;
+}
+.banner-txt{
+    text-align: center;
+    color: white;
+}
+
+
+#body{
+    display: flex;
+    padding-top: 10%;
+    justify-content: space-around;
+}
+#inline-img{
+    width: 400px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+#project ul{
+    display: flex;
+    gap: 15%;
+    justify-content: space-evenly;
+    padding-top: 10%;
+    color: rgb(245, 219, 219);
+}
+
+.img-1{
+    background-image:url(https://img.freepik.com/free-photo/3d-rendering-hexagonal-texture-background_23-2150796422.jpg) ;
+    width: 200px;
+    height: 200px;
+    border-radius: 12%;
+    text-align: center
+}
+.img-2{
+    background-image:url(https://wallpapertag.com/wallpaper/full/e/1/8/134557-best-anime-wallpaper-1920x1080-images.jpg) ;
+    width: 200px;
+    height: 200px;
+    border-radius: 12%;
+    text-align: center
+}
+.img-3{
+    background-image:url(https://www.indiafilings.com/learn/wp-content/uploads/2019/08/Women-Helpline.jpg) ;
+    background-position: 10%;
+    width: 200px;
+    height: 200px;
+    border-radius: 12%;
+    text-align: center
+}
+
+
+footer{
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 4%;
+    background-color: rgb(8, 8, 88);
+    color: white;
+}
+.contact-img ul{
+    display: flex;
+    gap: 12%;
+    background-color: rgb(125, 78, 168);
+    padding-top: 8%;
+    padding-bottom: 5%;
+}
+#address{
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+    height: 70%;
+}
+
